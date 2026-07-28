@@ -1,4 +1,5 @@
-#  Netflix Data Analysis & Recommendation System
+# Netflix Data Analysis & Recommendation System
+
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![MySQL](https://img.shields.io/badge/Database-MySQL-orange)
 ![Pandas](https://img.shields.io/badge/Library-Pandas-green)
@@ -6,14 +7,14 @@
 ![Matplotlib](https://img.shields.io/badge/Visualization-Matplotlib-red)
 ![Seaborn](https://img.shields.io/badge/Visualization-Seaborn-purple)
 
-
 A Python-based **Netflix Data Analysis and Movie Recommendation System** that provides movie recommendations, performs data analysis, and visualizes insights using Python libraries. The project uses **MySQL through XAMPP** for storing and managing movie data.
 
 ---
 
-##  Features
+## Features
 
-###  Movie Recommendation
+### Movie Recommendation
+
 - Search movies by title
 - Recommend movies based on:
   - Genre
@@ -22,7 +23,8 @@ A Python-based **Netflix Data Analysis and Movie Recommendation System** that pr
   - Actors
   - Content Type
 
-###  Data Analysis
+### Data Analysis
+
 - Total content analysis
 - Movie and series distribution
 - Genre analysis
@@ -31,7 +33,8 @@ A Python-based **Netflix Data Analysis and Movie Recommendation System** that pr
 - Release year analysis
 - Rating analysis
 
-###  Visualization
+### Data Visualization
+
 - Movies vs Series comparison
 - Top 10 genres visualization
 - Language distribution
@@ -40,7 +43,7 @@ A Python-based **Netflix Data Analysis and Movie Recommendation System** that pr
 
 ---
 
-##  Technologies Used
+## Technologies Used
 
 - Python
 - MySQL (XAMPP)
@@ -52,7 +55,7 @@ A Python-based **Netflix Data Analysis and Movie Recommendation System** that pr
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Netflix-Data-Analysis-Recommendation-System/
@@ -64,6 +67,7 @@ Netflix-Data-Analysis-Recommendation-System/
 ├── analysis.py
 ├── visualization.py
 │
+├── movies.sql
 ├── requirements.txt
 ├── README.md
 ├── .gitignore
@@ -80,7 +84,7 @@ Netflix-Data-Analysis-Recommendation-System/
 
 ---
 
-##  Installation
+## Installation
 
 ### Clone the repository
 
@@ -96,7 +100,7 @@ pip install -r requirements.txt
 
 ---
 
-##  Database Setup
+## Database Setup
 
 This project uses **MySQL through XAMPP**.
 
@@ -110,7 +114,7 @@ Steps:
 CREATE DATABASE khushi_db;
 ```
 
-4. Import the database file.
+4. Import the `movies.sql` file into MySQL using phpMyAdmin.
 5. Check database configuration in `db.py`.
 
 ```python
@@ -122,7 +126,7 @@ database="khushi_db"
 
 ---
 
-##  How to Run
+## How to Run
 
 Run the project using:
 
@@ -132,7 +136,7 @@ python main.py
 
 ---
 
-#  Screenshots
+# Screenshots
 
 ## Main Menu
 
@@ -140,7 +144,7 @@ python main.py
 
 ---
 
-#  Recommendation System
+# Recommendation System
 
 ## Search Movie
 
@@ -156,7 +160,7 @@ python main.py
 
 ---
 
-#  Data Analysis
+# Data Analysis
 
 ## Total Content & Type Analysis
 
@@ -168,7 +172,7 @@ python main.py
 
 ---
 
-#  Data Visualization
+# Data Visualization
 
 ## Movies vs Series
 
@@ -180,7 +184,7 @@ python main.py
 
 ---
 
-##  Modules Description
+## Modules Description
 
 | File | Description |
 |------|-------------|
@@ -192,7 +196,7 @@ python main.py
 
 ---
 
-##  Future Enhancements
+## Future Enhancements
 
 - GUI using Tkinter
 - Flask/Django web application
@@ -202,7 +206,7 @@ python main.py
 
 ---
 
-##  Author
+## Author
 
 **Lakshmi Chauhan**
 
